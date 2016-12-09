@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.demoscenehighlights"
+	name="Demoscene Highlights"
+	version="1.0.0"
+	provider-name="zag">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Demoscene Highlights</summary>
+    <description lang="en">Providing high quality captures from demos/intros from the demoscene running on the Windows Platform. If you have a demo/intro that you would love to see on Youtube, drop me a message and I'll see what I can do :) Of course all demos are best viewed rendered live on your PC. So if you have the possibility, try it out. The download link for a demo is always below each video in the Pouet Link.For more demos check out the given links below.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <source>https://github.com/zag2me/plugin.video.demoscenehighlights</source>
+    <website>https://www.youtube.com/channel/UC96JVq-z0-0iHAkIkKp1_6w</website>
+    <email>zag@kodi.tv</email>
+    <license>GPL v2.0</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshot-01.jpg</screenshot>
+        <screenshot>resources/screenshot-02.jpg</screenshot>
+        <screenshot>resources/screenshot-03.jpg</screenshot>
+        <banner>resources/banner.jpg</banner>
+        <logo>resources/logo.png</logo>
+    </assets>
+    <news>Initial Release</news>
+  </extension>
+</addon>
